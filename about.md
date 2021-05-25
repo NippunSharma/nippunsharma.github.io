@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img align = "middle" width = "264" height = "286" src = "/assets/pp.png">
+<img align = "middle" src = "/assets/pp.jpg">
 
 Hi, I am a Computer Science Undergraduate at [IIT Mandi](https://www.iitmandi.ac.in/).
 I am majorly interested in applying machine learning models
