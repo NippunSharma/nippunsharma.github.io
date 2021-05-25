@@ -9,9 +9,12 @@ permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Nippun Sharma
+
+contact:
+  github:            https://github.com/NippunSharma
+  email:             inbox.nippun@gmail.com
+  linkedin:          https://linkedin.com/in/nippun-sharma
 
 # Gems
 plugins:
