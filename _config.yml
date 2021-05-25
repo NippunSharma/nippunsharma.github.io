@@ -2,7 +2,7 @@
 title:               Nippun Sharma
 tagline:             'My Website'
 description:         'A personal website about technical things that I find useful.'
-url:                 http://lanyon.getpoole.com
+url:                 "https://nippunsharma.github.io"
 baseurl:             ''
 paginate:            5
 permalink:           pretty
