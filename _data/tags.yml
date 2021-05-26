@@ -1,9 +1,2 @@
-- slug: jekyll
-  name: Jekyll
-
-- slug: documentation
-  name: Documentation
-
 - slug: gsoc
   name: GSoC
-
