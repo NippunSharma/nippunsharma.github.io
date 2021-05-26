@@ -3,7 +3,7 @@ title:               Nippun Sharma
 tagline:             'Do what you love'
 description:         'A personal website about things that I find useful.'
 url:                 https://nippunsharma.github.io
-baseurl:             https://nippunsharma.github.io/
+baseurl:             ''
 paginate:            5
 permalink:           pretty
 
