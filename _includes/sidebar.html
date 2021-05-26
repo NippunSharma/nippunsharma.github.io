@@ -3,18 +3,13 @@
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
 <!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div id="contact-list" style="text-align:center">
-    <a href="https://linkedin.com/in/nippun-sharma"><i class="fa fa-linkedin" style="font-size: 150%;"></i></a>
-    <a href="https://github.com/NippunSharma"><i class="fa fa-github" style="font-size: 150%;"></i></a>
-  </div>
-  
+<div class="sidebar" id="sidebar">  
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
+    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}" style="text-align: center;">Home</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -25,10 +20,15 @@
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}" style="text-align: center;">{{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
+  
+  <a href="https://linkedin.com/in/nippun-sharma" class="sidebar-nav-item" style="text-align: center;"><i class="fa fa-linkedin" style="font-size: 150%;"></i></a>
+  <a href="https://github.com/NippunSharma" class="sidebar-nav-item" style="text-align: center;"><i class="fa fa-github" style="font-size: 150%;"></i></a>
+  <a href="mailto:inbox.nippun@gmail.com" class="sidebar-nav-item" style="text-align: center;"><i class="fa fa-envelope"></i></a>
+
   </nav>
 
   <div class="sidebar-item">
