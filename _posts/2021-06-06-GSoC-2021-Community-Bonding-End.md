@@ -1,7 +1,7 @@
 ---
 layout: post
 title: End of Community Bonding (GSoC 2021)
-tags: [gsoc]
+tags: [gsoc, mlpack]
 ---
 
 Today, marks the end of the Community Bonding Period for GSoC 2021.
