@@ -1,14 +1,16 @@
 ---
 layout: post
 title: End of Community Bonding (GSoC 2021)
-tags: [gsoc, mlpack]
+tags: [gsoc mlpack]
 ---
 
 Today, marks the end of the Community Bonding Period for GSoC 2021.
 During the this period I completed one of my previous pending PR [#2868](https://github.com/mlpack/mlpack/pull/2868) that is now merged.
 I worked on this PR for quite some time and it is a great feeling to see it get merged!
-The PR adds a nice functionality proposed by Ryan in [1709](https://github.com/mlpack/mlpack/issues/1709). It is basically aimed at adding model
-inspection feature in python bindings.
+The PR adds a nice functionality proposed by Ryan in [#1709](https://github.com/mlpack/mlpack/issues/1709). It is basically aimed at adding model
+inspection feature in python bindings. `get_cpp_params` and `set_cpp_params` are the new methods using which the user can obtain the model parameters
+as well as modify the model parameters by "setting" the modified parameters using `set_cpp_param`. In the backend, `get_cpp_params` and `set_cpp_params` use
+cereal's serialization and de-serialization respectively.
 Now, the user can actually see the parameters of the trained model and they can alter them also.
 
 Here is a very basic example:
@@ -42,7 +44,7 @@ Output:
 [10. 12.] # predictions doubled.
 ```
 
-I have also opened [2961](https://github.com/mlpack/mlpack/pull/2961) as a draft PR to discuss various ideas about the GSoC project.
+I have also opened [#2961](https://github.com/mlpack/mlpack/pull/2961) as a draft PR to discuss various ideas about the GSoC project.
 There was also a short 20 minute meet with Ryan, where we discussed about the overall approach
 and how the final API might look like.
 Currently, I have added a basic "skeleton" code to the PR, it is still in raw form. But, I am able to make the complete process
