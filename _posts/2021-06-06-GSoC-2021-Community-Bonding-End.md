@@ -1,7 +1,7 @@
 ---
 layout: post
 title: End of Community Bonding (GSoC 2021)
-tags: [mlpack]
+tags: [gsoc, mlpack]
 ---
 
 Today, marks the end of the Community Bonding Period for GSoC 2021.
@@ -31,6 +31,7 @@ print(preds_before)
 
 params = model.get_cpp_params()
 # doubling the parameters, so, the predictions should also double.
+# note that here the constant term is 0 so there will be no change in that after doubling.
 params["LinearRegression"]["parameters"] = params["LinearRegression"]["parameters"]  * 2
 model.set_cpp_params(params)
 
