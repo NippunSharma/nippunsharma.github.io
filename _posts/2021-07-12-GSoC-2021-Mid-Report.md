@@ -98,11 +98,11 @@ opt.best_params_
 # output:
 # OrderedDict([('iterations', 226), ('weak_learner', 'perceptron')])
 ```
-Similar to this other methods can also be used with scikit learn.
+Similar to this, other methods can also be used with scikit learn.
 This feature integrates mlpack into the workflow of the user.
 
-The next part of the project focuses on changing the binding documentation corresponding to the changes made in the API.
+The next part of the project focuses on changing the documentation corresponding to the changes made in the API.
 First, I will try to create a mock-up of how the documentation should look (I have started doing it) and then make changes correspondingly.
 
-Thanks for reading this far, I know I lied that I would wrap this up in little space but you should have already known from the title.
+Thanks for reading this far.
 
