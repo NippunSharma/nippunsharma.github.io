@@ -5,7 +5,7 @@ tags: [gsoc, mlpack]
 ---
 
 The mid of GSoC 2021 is reached with the first evaluations starting from today. This is a report of the progress achieved until now.
-Before starting let me apologize as I promised to write a blog every weak but it did not go as I planned. I will try to cover all the progress
+Before starting let me apologize as I promised to write a blog every week but it did not go as I planned. I will try to cover all the progress
 till now in this report within as little space as possible, so read till the end.
 
 First, I started to work on [#2961](https://github.com/mlpack/mlpack/pull/2961), this PR was meant as a reference for me, to try different things and come up with the best
@@ -36,7 +36,7 @@ model.fit(training=X_train, training_responses=y_train)
 preds = model.predict(test=X_test)
 ```
 I aimed to make the API as close to the scikit learn API as possible as it is the most used library in the machine learning world (at least for python).
-Then it hit me and I discussed an idea with my mentors in our weakly meeting. I appreciate their open-mindedness that they allowed me to pursue
+Then it hit me and I discussed an idea with my mentors in our weekly meeting. I appreciate their open-mindedness that they allowed me to pursue
 this idea to check whether it is worth it or not. The idea was to make the mlpack methods scikit compatible (in python).
 For people who are not aware of this, scikit compatibility would allow mlpack users to use mlpack models with various scikit-learn utilities, such as:
 1. `GridSearchCV` and `BayesSearchCV` are provided by scikit-learn and scikit-optimize respectively for hyperparameter tuning.
